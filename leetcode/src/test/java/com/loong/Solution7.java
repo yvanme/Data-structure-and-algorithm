@@ -1,6 +1,6 @@
 package com.loong;
 
-class Solution {
+class Solution7 {
     public int reverse(int x) {
         try {
             if(x > 0){
@@ -19,8 +19,8 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        System.out.println(solution.reverse(123));
-        System.out.println(solution.reverse(-123));
+        Solution7 solution7 = new Solution7();
+        System.out.println(solution7.reverse(123));
+        System.out.println(solution7.reverse(-123));
     }
 }
